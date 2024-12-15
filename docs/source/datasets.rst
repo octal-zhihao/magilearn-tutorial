@@ -1,4 +1,4 @@
-数据集模块
+数据集模块 (dataset)
 ==========
 
 .. _1-加载数据集-loadirispy:
@@ -198,10 +198,10 @@
 
 .. code:: python
 
-   from magilearn.datasets import make_classification
-   # 生成具有较大类别分离的数据集
-   X, y = make_classification(n_samples=200, n_features=10, n_classes=3, class_sep=3.0, random_state=42)
-   
-   # 输出数据的前五行
-   print("特征矩阵 X:\n", X[:5])
-   print("标签数组 y:\n", y[:5])
+   from magilearn.datasets import make_classification
+   # 生成具有较大类别分离的数据集
+   X, y = make_classification(n_samples=200, n_features=10, n_classes=3, class_sep=3.0, random_state=42)
+   
+   # 输出数据的前五行
+   print("特征矩阵 X:\n", X[:5])
+   print("标签数组 y:\n", y[:5])
