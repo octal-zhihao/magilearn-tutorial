@@ -1,17 +1,14 @@
-Welcome to Lumache's documentation!
+Welcome to Magilearn's documentation!
 ===================================
 
-**Lumache** (/lu'make/) is a Python library for cooks and food lovers
-that creates recipes mixing random ingredients.
-It pulls data from the `Open Food Facts database <https://world.openfoodfacts.org/>`_
-and offers a *simple* and *intuitive* API.
+MagiLearn 是一个轻量级的自定义机器学习库，支持特征选择、模型选择、数据预处理、分类、回归、聚类等模块。通过模块化设计，MagiLearn
+便于扩展并易于集成在机器学习项目中。
 
-Check out the :doc:`usage` section for further information, including
-how to :ref:`installation` the project.
+点击 :doc:`usage` 以了解更多信息。
 
 .. note::
 
-   This project is under active development.
+   本项目还在积极建设中。
 
 Contents
 --------

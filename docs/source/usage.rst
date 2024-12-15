@@ -1,14 +1,16 @@
 项目介绍
 ========
 
+项目地址：
+-----
 MagiLearn 是一个轻量级的自定义机器学习库，旨在提供类似 ``scikit-learn``
 的功能，支持特征选择、模型选择、数据预处理、分类、回归、聚类等模块。通过模块化设计，MagiLearn
 便于扩展并易于集成在机器学习项目中。
 
-项目地址：\ `传送门 <https://github.com/octal-zhihao/MagiLearn>`__
+\ `传送门 <https://github.com/octal-zhihao/MagiLearn>`__
 
 安装
-----
+
 
 MagiLearn 使用 Python 3.x 开发，推荐使用虚拟环境进行安装。
 
@@ -47,31 +49,8 @@ MagiLearn 使用 Python 3.x 开发，推荐使用虚拟环境进行安装。
    accuracy = model.score(X_test, y_test)
    print(f"Model Accuracy: {accuracy:.2f}")
 
-主要模块参考文档
-----------------
 
--  `数据预处理模块
-   (``preprocessing``) <https://github.com/octal-zhihao/MagiLearn/blob/main/doc/preprocessing.md>`__
-
--  `模型选择与评估模块
-   (``model_selection``) <https://github.com/octal-zhihao/MagiLearn/blob/main/doc/model_selection.md>`__
-
--  `特征选择与降维模块
-   (``feature_selection``) <https://github.com/octal-zhihao/MagiLearn/blob/main/doc/feature_selection.md>`__
-
--  `分类与回归模型
-   (``models``) <https://github.com/octal-zhihao/MagiLearn/blob/main/doc/models.md>`__
-
--  `模型评估模块
-   (``metrics``) <https://github.com/octal-zhihao/MagiLearn/blob/main/doc/metrics.md>`__
-
--  `管道模块
-   (``pipeline``) <https://github.com/octal-zhihao/MagiLearn/blob/main/doc/pipline.md>`__
-
--  `数据集模块
-   (``datasets``) <https://github.com/octal-zhihao/MagiLearn/blob/main/doc/datasets.md>`__
-
-现阶段项目结构
+项目结构
 --------------
 
 .. code:: shell
