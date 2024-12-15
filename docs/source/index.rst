@@ -20,3 +20,9 @@ Contents
 
    usage
    preprocessing
+   model_selection
+   feature_selection
+   models
+   metrics
+   pipeline
+   datasets
