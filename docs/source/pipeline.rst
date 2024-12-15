@@ -1,4 +1,4 @@
-管道模块（pipline）
+管道模块（pipeline）
 ===================
 
 pipeline
