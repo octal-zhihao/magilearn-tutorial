@@ -1,4 +1,4 @@
-.. _管道模块pipline）:
+.. _管道模块 (pipline）:
 
 管道模块（pipline）
 ===================
@@ -58,24 +58,24 @@ sklearn.pipeline 模块保持一致：
 
 .. code:: python
 
-   from magilearn.pipeline import Pipeline
-   from magilearn.models import LogisticRegression
-   from magilearn.preprocessing import StandardScaler
-   import numpy as np
-   
-   # 生成示例数据
-   X = np.array([[1, 2], [2, 3], [3, 4], [4, 5], [5, 6]])
-   y = np.array([0, 1, 0, 1, 0])
-   
-   # 创建数据预处理和模型训练的管道
-   pipeline = Pipeline(steps=[
-       ('scaler', StandardScaler()),
-       ('classifier', LogisticRegression())
-   ])
-   
-   # 训练管道
-   pipeline.fit(X, y)
-   
-   # 进行预测
-   predictions = pipeline.predict(X)
+   from magilearn.pipeline import Pipeline
+   from magilearn.models import LogisticRegression
+   from magilearn.preprocessing import StandardScaler
+   import numpy as np
+   
+   # 生成示例数据
+   X = np.array([[1, 2], [2, 3], [3, 4], [4, 5], [5, 6]])
+   y = np.array([0, 1, 0, 1, 0])
+   
+   # 创建数据预处理和模型训练的管道
+   pipeline = Pipeline(steps=[
+       ('scaler', StandardScaler()),
+       ('classifier', LogisticRegression())
+   ])
+   
+   # 训练管道
+   pipeline.fit(X, y)
+   
+   # 进行预测
+   predictions = pipeline.predict(X)
    print("预测结果:", predictions)
